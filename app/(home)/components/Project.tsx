@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiNextdotjs, SiOpenai, SiReact, SiSupabase, SiTailwindcss } from 'react-icons/si'
+import { SiNextdotjs, SiOpenai, SiReact, SiSupabase, SiTailwindcss, SiThreedotjs, SiVite } from 'react-icons/si'
 import Title from './Title'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -20,7 +20,28 @@ const Project = () => {
       link: "https://spotify-clone-gamma-inky.vercel.app/",
       coverPic: "/spotify.png",
       background: "bg-green-500"
-    }
+    },
+    {
+      Title: "Portfolio",
+      tech: [SiNextdotjs, SiReact, SiTailwindcss],
+      link: "https://portfolio-hassaan.vercel.app/",
+      coverPic: "/port.png",
+      background: "bg-purple-500"
+    },
+    {
+      Title: "Apple iPhone 15 Pro website",
+      tech: [SiVite, SiReact, SiThreedotjs, SiTailwindcss],
+      link: "https://apple-iphone-five.vercel.app/",
+      coverPic: "/iphone.png",
+      background: "bg-gray-600"
+    },
+    // {
+    //   Title: "Nike-Shoe Store",
+    //   tech: [SiVite, SiReact, SiTailwindcss],
+    //   link: "https://nike-pi-two.vercel.app/",
+    //   coverPic: "/nike.png",
+    //   background: "bg-orange-400"
+    // }
   ]
   return (
     <div className='py-10 p-5 sm:p-0'>
